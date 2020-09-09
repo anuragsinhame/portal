@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 Nov, 2016, 12:25:25 AM
+    Author     : Anurag
+*/
+
+body{
+    font-family: "Constantia";
+}
+
+#row{
+    clear: both;
+    margin: 15px 33px;
+    padding: 5px 25px;
+}
+
+#bar_code{
+    margin: 46% 16%;
+    clear: both;
+}
+
+#front{
+    width: 86mm;
+    height: 54mm;
+    border: 4px solid #0b0b71;
+    float: left;
+}
+
+#back{
+    width:86mm;
+    height:54mm;
+    border: 4px solid #0b0b71;
+    float:right;
+    background-image: url(bg.jpg);
+    background-size: 100% 100%;
+}
+
+#sign{
+    width:40%;
+    margin: 15px 15px -10px 13px;
+}
+
+#sign_text{
+    margin: 12px 13px;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+#front_bottom{
+    background: #ffff6f;
+    margin-top: 5px;
+    height: 58%;
+/*    width:99%;
+    margin-left: .5%;*/
+}
